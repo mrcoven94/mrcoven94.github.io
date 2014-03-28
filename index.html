@@ -1,289 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Home | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
-<body>
-    <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="registration.html">Registration</a></li>
-                            <li class="divider"></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Use</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header><!--/header-->
-    <section id="main-slider" class="no-margin">
-        <div class="carousel slide wet-asphalt">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Design</h2>
-                                    <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                    <br>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="centered">
-                                    <div class="embed-container">
-                                        <iframe src="//player.vimeo.com/video/69421653?title=0&amp;byline=0&amp;portrait=0&amp;color=a22c2f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="icon-angle-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="icon-angle-right"></i>
-        </a>
-    </section><!--/#main-slider-->
+<html>
+        <head>
+                <title>Home | Welcome to BlueTube </title>
+                <!-- Responsive Site & CSS Import: BootStrap / Custom-->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name = "description" content = "Learn all you need to know about Boeing, engineering, and Design Geometry and Requirements." />
+                <meta name = "keywords" content = "Watch, Tutorials, Engineering, DRE, Brandon Sapp," />
 
-    <section id="services" class="emerald">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="icon-twitter icon-md"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Twitter Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="icon-facebook icon-md"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Facebook Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="icon-google-plus icon-md"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Google Plus Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div>
-        </div>
-    </section><!--/#services-->
+                <link href = "css/bootstrap.min.css" rel = "stylesheet">
+                <link href = "css/styles.css" rel = "stylesheet">
+                <link rel="shortcut icon" href="img/icon.png">
 
-    <section id="recent-works">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3>Our Latest Project</h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <div class="btn-group">
-                        <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
-                        <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
-                    </div>
-                    <p class="gap"></p>
+        </head>
+        <body>
+ 				<!-- Header Bar-->
+                <div class = "navbar navbar-inverse navbar-static-top">
+                        <div class = "container">
+                               
+                                <a href = "index.html" class = "navbar-brand">BlueTube</a>
+                               
+                                <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                        <span class = "icon-bar"></span>
+                                </button>
+                               
+                                <div class = "collapse navbar-collapse navHeaderCollapse">
+                               
+                                        <ul class = "nav navbar-nav navbar-right">
+                                       
+                                                <li class = "active"><a href = "#"><i class="glyphicon glyphicon glyphicon-home"></i> Home</a></li>
+                                                <li><a href = "videohome.html"><i class="glyphicon glyphicon glyphicon-facetime-video"></i> Videos</a></li>
+                                                <li class = "dropdown">
+                                                       
+                                                        <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown"> <i class="glyphicon glyphicon glyphicon-film"></i> Media<b class = "caret"></b></a>
+                                                        <ul class = "dropdown-menu">
+                                                                <li><a href = "read.html"><i class="glyphicon glyphicon glyphicon-pencil"></i> Articles</a></li>
+                                                                <li><a href = "about.html"><i class="glyphicon glyphicon-book"></i> About</a></li>
+                                                        </ul>
+                                               
+                                                </li>
+                                                <li><a href = "#signin" data-toggle = "modal" ><i class="glyphicon glyphicon glyphicon-log-in"></i> Sign In</a></li>
+                                                <li><a href = "#contact" data-toggle = "modal" ><i class="glyphicon glyphicon glyphicon-envelope"></i> Contact</a></li>
+                                       
+                                        </ul>
+                               
+                                </div>
+                               
+                        </div>
                 </div>
-                <div class="col-md-9">
-                    <div id="scroller" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                                                <h5>
-                                                    Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!--/.row-->
-                            </div><!--/.item-->
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                                                <h5>
-                                                    Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--/.item-->
-                        </div>
-                    </div>
-                </div>
-            </div><!--/.row-->
-        </div>
-    </section><!--/#recent-works-->
 
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://www.linkedin.com/in/coven/" title="Awesome Sauce Built By an Awesome Person!">David Coven</a>. All Rights Reserved.
-                </div>
-                <a href = "pricing.html" target="_blank"class = "navbar-btn btn-primary btn pull-right"> Get Your Own Website Today </a>
-            </div>
-        </div>
-    </footer><!--/#footer-->
+                
+                <div class = "container">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
-</body>
+                	<div class = "jumbotron text-center">
+                		<h1> Hello, World! </h1>
+                		<p> My name is David Coven, and I build Websites. I am currently pursuing my Bachelors Degree in Mechanical Engineering and a minor in Mathematics at the University of Washington, in Seattle Washington. I am primary interested in service, and community impact through educational access and support, and my passion helps me build bridges of support to help the communities around myself.</p>
+                		<a class = "btn btn-default"> Watch Now! </a>
+                		<a class = "btn btn-info"> Tweet It! </a>
+                	</div>
+
+                </div>
+
+              
+                <!-- Slider - Front Page -->
+ 
+
+                <!-- Grid System : Columns -->
+               <div class="container">
+					<div class="row">
+				        <!-- Boxes de Acoes -->
+				    	<div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="box">							
+								<div class="icon">
+									<div class="image"><i class="glyphicon glyphicon-plane"></i></div>
+									<div class="info">
+										<h3 class="title">World Class Expertise</h3>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+										</p>
+										<div class="more">
+											<a href="#" title="Title Link">
+												Read More <i class="glyphicon glyphicon-eye-open"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="space"></div>
+							</div> 
+						</div>
+							
+				        <div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="box">							
+								<div class="icon">
+									<div class="image"><i class="glyphicon glyphicon-globe"></i></div>
+									<div class="info">
+										<h3 class="title">A Global Product</h3>
+				    					<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+										</p>
+										<div class="more">
+											<a href="#" title="Title Link">
+												Read More <i class="glyphicon glyphicon-eye-open"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="space"></div>
+							</div> 
+						</div>
+							
+				        <div class="col-xs-12 col-sm-6 col-lg-4">
+							<div class="box">							
+								<div class="icon">
+									<div class="image"><i class="glyphicon glyphicon-user"></i></div>
+									<div class="info">
+										<h3 class="title">High Class Collaboration</h3>
+				    					<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in lobortis nisl, vitae iaculis sapien. Phasellus ultrices gravida massa luctus ornare. Suspendisse blandit quam elit, eu imperdiet neque semper.
+										</p>
+										<div class="more">
+											<a href="#" title="Title Link">
+												Read More <i class="glyphicon glyphicon-eye-open"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="space"></div>
+							</div> 
+						</div>		    
+						<!-- /Boxes de Acoes -->
+					</div>
+				</div>
+
+                <!--Builds Custom Footer -->
+                <div class = "navbar navbar-default navbar-fixed-bottom"> 
+               		 <div class = "container"> 
+               		 <p class = "navbar-text pull-left"> Site Built By David Coven </p>
+               		 <a href = "http://linkedin.com/in/coven" target="_blank"class = "navbar-btn btn-primary btn pull-right"> Get Your Own Website Today </a>
+               		 </div>
+
+                </div>
+
+                
+
+                <!-- Footer New Test -->
+                
+
+
+                <!-- Footer New End -->
+
+                <!-- Sign Up / Login Modal --> 
+ 				<div class = "modal fade" id = "signin" role = "dialog">
+                	<div class = "modal-dialog">
+                		<div class = "modal-content">
+                			<form class = " form-horizontal"> 
+	                			<div class = "modal-header">
+		                			<h4> Sign In <i class="glyphicon glyphicon  glyphicon-user"></i></h4>
+		                			<h6> Please use your Boeing / Total Access Information</h6>
+		                			</div>
+		                			<div class= "modal-body"> 
+		                				
+		                				<div class = "form-group">
+
+			                				<label for = "contact-name" class = "col-lg-2 control-label">Username or Email: </label>
+			                				<div class = "col-lg-10">
+
+			                					<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+			                				</div>
+
+		                				</div>
+
+										<div class = "form-group">
+
+			                				<label for = "contact-email" class = "col-lg-2 control-label">Email: </label>
+			                				<div class = "col-lg-10">
+
+			                					<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+			                				</div>
+
+		                				</div>
+
+		                			
+
+
+		                			</div>
+		                			<div class = "modal-footer"> 
+		                				<a class = "btn btn-danger" data-dismiss = "modal"> I Forgot My Password </a>
+		                				<button class = "btn btn-primary" type = "submit"> Login</button>
+		                		</div>
+                			</form>
+                		</div>
+
+                	</div>
+
+                </div>
+
+                
+
+                <!-- Sign Up Modal End -->
+
+                <!-- Contact Modal-->
+                <div class = "modal fade" id = "contact" role = "dialog">
+                	<div class = "modal-dialog">
+                		<div class = "modal-content">
+                			<form class = " form-horizontal"> 
+	                			<div class = "modal-header">
+		                			<h4> Contact Tech Site </h4>
+		                			</div>
+		                			<div class= "modal-body"> 
+		                				
+		                				<div class = "form-group">
+
+			                				<label for = "contact-name" class = "col-lg-2 control-label">Name: </label>
+			                				<div class = "col-lg-10">
+
+			                					<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+			                				</div>
+
+		                				</div>
+
+										<div class = "form-group">
+
+			                				<label for = "contact-email" class = "col-lg-2 control-label">Email: </label>
+			                				<div class = "col-lg-10">
+
+			                					<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+			                				</div>
+
+		                				</div>
+
+		                			<div class = "form-group">
+
+			                				<label for = "contact-message" class = "col-lg-2 control-label">Message: </label>
+			                				<div class = "col-lg-10">
+
+			                					<textarea class = "form-control" rows = "8">
+			                						
+			                					</textarea>
+			                				</div>
+
+		                				</div>
+
+
+		                			</div>
+		                			<div class = "modal-footer"> 
+		                				<a class = "btn btn-default" data-dismiss = "modal"> Cancel </a>
+		                				<button class = "btn btn-primary" type = "submit"> Submit</button>
+		                		</div>
+                			</form>
+                		</div>
+
+                	</div>
+
+                </div>
+
+
+
+ 				<!-- Custom JavaScript via BootStrap-->
+                <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src = "js/bootstrap.js"></script>
+               
+        </body>
 </html>
