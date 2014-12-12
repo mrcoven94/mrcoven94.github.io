@@ -1,0 +1,552 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume | David Coven</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/resume.css">  
+  </head>
+  <body>
+    <script>
+      window.onload = function () {
+        var toggleFloatingMenu = function() {
+          $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+          $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+        };
+
+        $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+        $( ".js-tooltip" ).tooltip();
+        $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+          e.preventDefault();
+          toggleFloatingMenu();
+        });
+        $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+      }
+    </script>
+    <div class="container-fluid">
+      <div class="row main clearfix">
+        <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
+          <i class="fa fa-bars"></i>
+          <span class="close-icon">&times;</span>
+        </a>
+        <nav class="floating-nav js-floating-nav">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#work-experience">
+                <i class="fa fa-building"></i>
+                Work Experience
+              </a>
+            </li>
+            <li>
+              <a href="#skills">
+                <i class="fa fa-code"></i>
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#education">
+                <i class="fa fa-mortar-board"></i>
+                Education
+              </a>
+            </li>
+              <li>
+                <a href="#awards">
+                  <i class="fa fa-trophy"></i>
+                  Awards
+                </a>
+              </li>
+              <li>
+                <a href="#volunteer-work">
+                  <i class="fa fa-child"></i>
+                  Volunteer Work
+                </a>
+              </li>
+              <li>
+                <a href="#publications">
+                  <i class="fa fa-book"></i>
+                  Publications
+                </a>
+              </li>
+              <li>
+                <a href="#interests">
+                  <i class="fa fa-heart"></i>
+                  Interests
+                </a>
+              </li>
+          </ul>
+        </nav>
+
+        <section class="col-md-3 card-wrapper profile-card-wrapper affix">
+          <div class="card profile-card">
+              <div class="profile-pic">
+                <img class="media-object img-circle center-block"  data-src="holder.js/64x64"
+                  alt="64x64" src="images/avatar.jpg" style="width: 100px; height: 100px;">
+              </div>
+              <h3 class="text-center text-bolder name"> David Coven </h3>
+              <h5 class="text-muted text-center">Engineer</h5>
+              <hr>
+
+              <div class="contact-details clearfix">
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-location-arrow"></i>
+                    </span>
+
+                      <span class="info">
+                        Seattle , Washington
+                      </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-phone"></i>
+                    </span>
+
+                    <span class="info">
+                      (206) 123-4567
+                    </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-envelope"></i>
+                    </span>
+
+                    <span class="info">
+                      <a href="mailto:richard.hendriks@gmail.com" class="link-disguise">coven@uw.edu</a>
+                    </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon" title="Languages I speak">
+                      <i class="fa fa-lg fa-language"></i>
+                    </span>
+
+                    <span class="info">
+                      English, Spanish, Mandarin
+                    </span>
+                  </div>
+              </div>
+
+              <hr>
+
+              <div class="social-links text-center">
+                  <a class="fa fa-twitter fa-2x social-link link-twitter"
+                       href="http://www.twitter.com/mrcovennnnn" target="_blank"></a>
+                  <a class="fa fa-github fa-2x social-link link-blog"
+                       href="http://github.com/mrcoven94" target="_blank"></a>
+                  <a class="fa fa-download fa-2x social-link link-blog"
+                       href="resume.pdf" target="_blank" download></a>
+              </div>
+          </div>
+        </section>
+
+        <section class="col-md-9 card-wrapper pull-right">
+          <div class="card background-card">
+            <h4 class="text-uppercase text-bolder" id="education">
+                University of Washington <br>
+                Mechanical Engineering, BS
+              </h4>
+              <h5>
+                Minor: Mathematics &amp; Entrepreneurship 
+              </h5>
+              <h6>
+                Sept. 2012 - June 2017
+              </h6>
+            <hr>
+
+            <div class="background-details">
+              <div class="detail" id="work-experience">
+                <div class="icon">
+                  <i class="fa fa-lg fa-building"></i>
+                  <span class="mobile-title">Work Experience</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    Work Experience
+                  </h4>
+
+                  <ul class="list-unstyled">
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>CEO/President</strong>,&nbsp;Pied Piper
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Nov, 2013 -
+                                  Nov, 2014
+                              </span>
+                              <span>
+                                <i class="fa fa-clock-o icon-left"></i>
+                                1 year
+                              </span>
+                            </small>
+                          </p>
+                          <p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
+                            <ul>
+                                <li> Build an algorithm for artist to detect if their music was violating copy right infringement laws </li>
+                                <li> Successfully won Techcrunch Disrupt </li>
+                                <li> Optimized an algorithm that holds the current world record for Weisman Scores </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                          <p>
+                            <strong>Joined:</strong>&nbsp;
+                            Nov, 2013
+                          </p>
+                          <p>
+                              <strong>Left:</strong>&nbsp;
+                              Nov, 2014
+                          </p>
+                          <p>
+                            <i class="fa fa-clock-o icon-left"></i>
+                            1 year
+                          </p>
+                        </div>
+                      </li>
+                  </ul>
+                    
+                                      <ul class="list-unstyled">
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>CEO/President</strong>,&nbsp;Pied Piper
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Nov, 2013 -
+                                  Nov, 2014
+                              </span>
+                              <span>
+                                <i class="fa fa-clock-o icon-left"></i>
+                                1 year
+                              </span>
+                            </small>
+                          </p>
+                          <p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
+                            <ul>
+                                <li> Build an algorithm for artist to detect if their music was violating copy right infringement laws </li>
+                                <li> Successfully won Techcrunch Disrupt </li>
+                                <li> Optimized an algorithm that holds the current world record for Weisman Scores </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                          <p>
+                            <strong>Joined:</strong>&nbsp;
+                            Nov, 2013
+                          </p>
+                          <p>
+                              <strong>Left:</strong>&nbsp;
+                              Nov, 2014
+                          </p>
+                          <p>
+                            <i class="fa fa-clock-o icon-left"></i>
+                            1 year
+                          </p>
+                        </div>
+                      </li>
+                  </ul>
+                    
+                                      <ul class="list-unstyled">
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>CEO/President</strong>,&nbsp;Pied Piper
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Nov, 2013 -
+                                  Nov, 2014
+                              </span>
+                              <span>
+                                <i class="fa fa-clock-o icon-left"></i>
+                                1 year
+                              </span>
+                            </small>
+                          </p>
+                          <p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
+                            <ul>
+                                <li> Build an algorithm for artist to detect if their music was violating copy right infringement laws </li>
+                                <li> Successfully won Techcrunch Disrupt </li>
+                                <li> Optimized an algorithm that holds the current world record for Weisman Scores </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                          <p>
+                            <strong>Joined:</strong>&nbsp;
+                            Nov, 2013
+                          </p>
+                          <p>
+                              <strong>Left:</strong>&nbsp;
+                              Nov, 2014
+                          </p>
+                          <p>
+                            <i class="fa fa-clock-o icon-left"></i>
+                            1 year
+                          </p>
+                        </div>
+                      </li>
+                  </ul>
+                    
+                                      <ul class="list-unstyled">
+                      <li class="card card-nested clearfix">
+                        <div class="content has-sidebar">
+                          <p class="clear-margin-sm">
+                            <strong>CEO/President</strong>,&nbsp;Pied Piper
+                          </p>
+                          <p class="text-muted visible-xs visible-sm">
+                            <small>
+                              <span class="space-right">
+                                Nov, 2013 -
+                                  Nov, 2014
+                              </span>
+                              <span>
+                                <i class="fa fa-clock-o icon-left"></i>
+                                1 year
+                              </span>
+                            </small>
+                          </p>
+                          <p>Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.</p>
+                            <ul>
+                                <li> Build an algorithm for artist to detect if their music was violating copy right infringement laws </li>
+                                <li> Successfully won Techcrunch Disrupt </li>
+                                <li> Optimized an algorithm that holds the current world record for Weisman Scores </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar text-muted text-center hidden-xs hidden-sm">
+                          <p>
+                            <strong>Joined:</strong>&nbsp;
+                            Nov, 2013
+                          </p>
+                          <p>
+                              <strong>Left:</strong>&nbsp;
+                              Nov, 2014
+                          </p>
+                          <p>
+                            <i class="fa fa-clock-o icon-left"></i>
+                            1 year
+                          </p>
+                        </div>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="detail" id="skills">
+                <div class="icon">
+                  <i class="fa fa-lg fa-code"></i>
+                  <span class="mobile-title">Skills</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    Skills
+                  </h4>
+
+                  <div class="content">
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Engineering</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">MATLAB</span>
+                                <span class="label label-keyword">SolidWorks</span>
+                                <span class="label label-keyword">Java</span>
+                                <span class="label label-keyword">LaTeX</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level js-tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Web Development</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">HTML</span>
+                                <span class="label label-keyword">CSS</span>
+                                <span class="label label-keyword">Javascript</span>
+                                <br>
+<!--                                <i>Frameworks: Famous.js, Angular.js, Ruby on Rails, Python-CherryPy</i>-->
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                
+                <div class="detail" id="awards">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-trophy"></i>
+                    <span class="mobile-title">Awards</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      Awards
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                          <li class="card card-nested">
+                            <div class="content">
+                              <p class="clear-margin-sm">
+                                <strong>1st Place Pitch - University Non Profit</strong>,&nbsp;
+                                SVP
+                                  <br>
+                                  <strong>1st Place Pitch - University Non Profit</strong>,&nbsp;
+                                SVP
+                              </p>      
+                            </div>
+                            
+                          </li>
+                      </ul>
+                        
+                   
+                     
+                       
+                    </div>
+                  </div>
+                </div>
+
+                <div class="detail" id="volunteer-work">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-child"></i>
+                    <span class="mobile-title">Volunteer Work</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      Volunteer Work
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>Teacher</strong>,&nbsp;
+                                CoderDojo
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Dec, 2011 -
+                                    Dec, 2012
+                                </small>
+                              </p>
+                              <p>Global movement of free coding clubs for young people.</p>
+                              <ul>
+                                  <li> Awarded &#x27;Teacher of the Month&#x27; </li>
+                              </ul>
+                            </div>
+                            <div class="sidebar hidden-xs hidden-sm text-muted text-center">
+                              <p>
+                                <strong>Since:</strong>&nbsp;
+                                Dec, 2011
+                              </p>
+                              <p>
+                                  <strong>Until:</strong>&nbsp;
+                                  Dec, 2012
+                              </p>
+                            </div>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="detail" id="publications">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-book"></i>
+                    <span class="mobile-title">Publications</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      Publications
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                          <li class="card card-nested">
+                            <div class="content has-sidebar">
+                              <p class="clear-margin-sm">
+                                <strong>
+                                    <a href="http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"  target="_blank">Video compression for 3d media</a>
+                                </strong>,&nbsp;
+                                Hooli
+                              </p>
+                              <p class="visible-xs visible-sm text-muted">
+                                <small>
+                                  Published on: Sep 30, 2014
+                                </small>
+                              </p>
+                              <p class="clear-margin">Innovative middle-out compression algorithm that changes the way we store data.</p>
+                            </div>
+                            <div class="sidebar text-muted text-center hidden-sm hidden-xs">
+                              <p>
+                                <strong>Published on:</strong>&nbsp;
+                                Sep 30, 2014
+                              </p>
+                            </div>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="detail" id="interests">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-heart"></i>
+                    <span class="mobile-title">Interests</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      Interests
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                          <li class="card card-nested">
+                            <p>
+                              <strong>Wildlife</strong>
+                            </p>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Ferrets</span>
+                                <span class="label label-keyword">Unicorns</span>
+                            </div>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
+  </body>
+</html>
